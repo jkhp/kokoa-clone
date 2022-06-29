@@ -1,0 +1,100 @@
+.status-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header span:nth-child(1){
+    font-size: 30px;
+    margin: 50px 0px 20px 0px;
+}
+
+.header span:nth-child(2){
+    color: rgb(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+}
+
+.top-menubar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.top-menubar span{
+    font-size: 40px;
+    font-weight: 650;
+}
+
+.iconbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconbox i{
+    margin-left: 15px;
+}
+
+.my-profile{
+    margin: 10px;
+    margin-left: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+    padding-bottom: 20px;
+}
+
+.my-profile span{
+    font-size: 30px;
+    font-weight: 650;
+    margin-left: 15px;
+}
+
+.my-profile img{
+    border-radius: 15px;
+}
+
+.another-profile{
+    margin: 10px;
+    margin-left: 0;
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.another-profile span{
+    font-size: 30px;
+    font-weight: 650;
+    margin-left: 15px;
+}
+
+.another-profile img{
+    border-radius: 15px;
+}
+
+.mini-title{
+    font-size: 20px;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+.bottom-menubar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+body{
+    height: 150vh;
+}
